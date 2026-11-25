@@ -1,0 +1,31 @@
+{
+  "name": "txdoctor-mcp",
+  "version": "0.1.0",
+  "description": "Solana transaction failure diagnostics MCP server: 202 error codes across Jupiter, Raydium (CPMM/CLMM/AMM/LaunchLab), Orca, Meteora, pump.fun, SPL Token and Token-2022, with cross-program collision decoding.",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "txdoctor-mcp": "./index.mjs" },
+  "main": "./index.mjs",
+  "files": ["index.mjs", "data.json", "README.md", "LICENSE"],
+  "keywords": [
+    "solana",
+    "mcp",
+    "model-context-protocol",
+    "error-codes",
+    "transaction",
+    "jupiter",
+    "raydium",
+    "orca",
+    "meteora",
+    "pump-fun",
+    "spl-token",
+    "debugging"
+  ],
+  "engines": { "node": ">=18" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimihk/txdoctor-mcp.git"
+  },
+  "homepage": "https://txdoctor.app",
+  "bugs": { "url": "https://github.com/kimihk/txdoctor-mcp/issues" }
+}
