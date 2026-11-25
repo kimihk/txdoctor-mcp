@@ -53,7 +53,7 @@ Add to `claude_desktop_config.json`:
   "mcpServers": {
     "txdoctor": {
       "command": "npx",
-      "args": ["-y", "txdoctor-mcp"]
+      "args": ["-y", "github:kimihk/txdoctor-mcp"]
     }
   }
 }
@@ -62,8 +62,11 @@ Add to `claude_desktop_config.json`:
 ### Any MCP client (stdio)
 
 ```bash
-npx -y txdoctor-mcp
+npx -y github:kimihk/txdoctor-mcp
 ```
+
+(Once the package is on npm, `npx -y txdoctor-mcp` works as well. The GitHub
+form installs the exact same tarball and needs no registry account.)
 
 Zero dependencies. Node ≥ 18. Data is embedded and works fully offline.
 
