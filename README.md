@@ -1,5 +1,7 @@
 # txdoctor-mcp
 
+[![Glama MCP score](https://glama.ai/mcp/servers/kimihk/txdoctor-mcp/badges/score.svg)](https://glama.ai/mcp/servers/kimihk/txdoctor-mcp)
+
 **Solana transaction failure diagnostics for AI agents.**
 
 An MCP (Model Context Protocol) server that decodes Solana program errors —
